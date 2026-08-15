@@ -34,9 +34,11 @@
         <h2>Practice data</h2>
         <p>
           The app stores original practice messages, practice sessions,
-          feedback, social rep history, reports, and blocks. Original messages
-          are stored so both participants can complete the practice session and
-          so reported content can be reviewed.
+          feedback, social rep history, reports, blocks, and basic product
+          interaction events such as profile setup, matching, message sending,
+          feedback submission, and safety reporting. Original messages are
+          stored so both participants can complete the practice session and so
+          reported content can be reviewed.
         </p>
       </section>
 
@@ -56,7 +58,9 @@
           Reports and blocks are stored to reduce repeated unsafe matching.
           Practice messages are limited and checked for links, contact details,
           harassment, sexual content, scams, and violent wording before they are
-          stored.
+          stored. The app also limits excessive session creation, message
+          sending, and reporting, and may temporarily limit accounts that
+          receive repeated recent reports.
         </p>
       </section>
 
@@ -66,8 +70,8 @@
           You can delete your account from Settings &gt; Delete account. Deleting
           your account removes your authentication account and cascades deletion
           through your profile, sessions, messages, feedback, reports, blocks,
-          and translation quality logs where the database model links that data
-          to your account.
+          product interaction events, and translation quality logs where the
+          database model links that data to your account.
         </p>
       </section>
 
